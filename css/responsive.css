@@ -1,0 +1,423 @@
+@media screen and (max-device-width:  979px), screen and (max-width:  979px) {
+    .container_12{width: 98%;}
+
+    .clear-2col{
+        display: block;
+    }
+    .lst-all-service .clear-2col,
+    .lst-all-project .clear-2col{
+        display: none;
+    }
+    .layout-2cols{
+        width: 100%;
+    }
+    /*.layout-2cols > .sidebar{
+        width: 19%;
+    }
+    .layout-2cols > .content{
+        width: 79%;
+    }
+    .layout-2cols.big-side-bar > .sidebar{
+        width: 248px
+    }
+    .layout-2cols.big-side-bar > .content{
+        width: 496px
+    }*/
+    /* Header
+    ****************************************/
+    #sequence > .sequence-canvas{
+        width: 724px;
+		font-size: 85%;
+    }
+    .slide-item .slide-image{
+        width: 45%;
+    }
+    .slide-item .ver-block{
+        width: 100%;
+    }
+    .slide-item .slide-desc-btn,
+    .slide-item .slide-title{
+        width: 50%;
+    }
+    .slide-item.animate-in .slide-title,
+    .slide-item.animate-in .slide-desc-btn{
+        left: 50%;
+    }
+    .project-top-thumb .information{
+        padding: 0 10px;
+    }
+    .project-top-thumb .project-title{
+        padding: 10px 0;
+        margin-bottom: 10px;
+    }
+    .project-infomation{
+        padding: 20px 10px;
+    }
+    .project-infomation ul{
+        margin: 10px 0;
+        padding-left: 30px;
+    }
+    .project-img-description{
+        width: auto;
+        background: none;
+    }
+    .thanks{
+        display: block;
+        float: none;
+        width: auto;
+        background: #68c368;
+        margin-bottom: 10px;
+    }
+
+    /* Service
+    ****************************************/
+    .service .service-item{
+        width: 48%;
+    }
+
+    /* Featured Info
+    ****************************************/
+    .lst-lastest-work .project-lastest{
+        width:100%;
+    }
+    .lst-lastest-work .project-media{
+        width: 31.333%;
+    }
+    .our-info .about-item{
+        width: 98% !important;
+        margin-bottom: 20px;
+    }
+    .our-info .about-service,
+    .our-info .grid_4{
+        width: 48%;
+    }
+
+
+    /* Recent Posts
+    ****************************************/
+    .lst-recent-posts .article-lastest{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .lst-recent-posts .article-item{
+        width: 31.333%;
+    }
+
+    /* Client We Work
+    *************************************/
+    .lst-logo-client a{
+        width: 50%;
+        margin: 0 0 10px 0;
+        text-align: center;
+    }
+
+    /* Footer
+    ************************************
+    #footer .contact-info{
+        width: 35%;
+        margin-bottom: 20px;
+    }
+    #footer .recent-tweets{
+        width: 55%;
+        margin-bottom: 20px;
+        padding-left: 30px;
+    }
+    #footer .email-newsletter{
+        padding-left: 0;
+        margin: 0 10px;
+        width: 35%;
+        clear: both;
+    }
+    #footer .foot-menu{
+        padding-left: 10px;
+        width: 55%;
+    }*/
+}
+
+@media screen and (max-device-width:  767px), screen and (max-width:  767px) {
+    .layout-2cols,
+    .layout-2cols > .sidebar,
+    .layout-2cols > .content,
+    .layout-2cols.big-side-bar > .sidebar,
+    .layout-2cols.big-side-bar > .content{
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        float: none !important;
+    }
+    /* Header
+    ****************************************/
+    #header .top-login-reg{
+        margin-right: 3%;
+    }
+    #logo,.main-nav{
+        margin: 0 3%;
+    }
+    #main-menu{
+        display: none;
+    }
+    .btn-toogle-menu{
+        display: block;
+        margin: 0;
+    }
+    #sequence{
+        height: auto;
+    }
+    #sequence > .sequence-canvas{
+        width: auto;
+        margin: 0 10px;
+		font-size: 100%;
+    }
+    .slide-item .slide-image{
+        width: 0;
+        height: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .slide-item .slide-desc-btn,
+    .slide-item .slide-title{
+        width: 90%;
+    }
+    .slide-item .slide-title{
+        bottom: 20%;
+        font-size: 2em;
+    }
+    .slide-item .slide-desc-btn{
+        top: 85%;
+    }
+    .slide-item.animate-in .slide-title,
+    .slide-item.animate-in .slide-desc-btn{
+        left: 5%;
+    }
+    #sequence .wrap-pagination{
+        display: none;
+    }
+    .head-about-us .content-about{
+        display: block;float: none;width: auto;
+    }
+    .menu-sidebar{
+        display: block;float: none;width: auto;
+        margin: 0 1% 30px;
+    }
+
+    .lst-all-service .clear{
+        width: 94%;
+        margin: 0 3%;
+    }
+
+    .project-infomation{
+        padding: 20px;
+    }
+    .project-infomation ul{
+        margin: 10px 0;
+    }
+    .project-detail{
+        width: 94%;
+    }
+    .top-filter-item .common-title,
+    .top-filter-item .wrap-filter{
+        width: auto;
+    }
+
+    .common-title,
+    .time-social,
+    .full-content,
+    .comment-area,
+    .project-img-description{
+        margin-left:  1%;
+        margin-right: 1%;
+    }
+    .wrap-article-detail .article-time,
+    .wrap-article-detail .social-sharing{
+        float: none;
+        width: 98%;
+        padding: 10px 0;
+    }
+    .compose-comment .form-send-cm{
+        margin: 0;
+    }
+    .compose-comment .form-send-cm .grid_3{
+        width: 29.3333%;
+    }
+    .compose-comment .form-send-cm .grid_3:first-child{
+        margin-left: 0;
+    }
+    .compose-comment .form-send-cm .grid_3:nth-child(3){
+        margin-right: 0;
+    }
+    .compose-comment .form-send-cm .grid_9{
+        margin: 0;
+        width: 100%;
+    }
+    .contact-form .grid_4{
+        width: 44%;
+    }
+    .contact-form .grid_8{
+        width: 94%;
+    }
+    /* Service
+    ****************************************/
+    .service .service-item{
+        width: 44%;
+        margin: 0 3% 30px;
+    }
+
+    /* Footer
+    *************************************/
+    #footer .info-line .btn-blue{
+        min-width: 110px;
+    }
+    #footer .contact-info{
+        width: 34%;
+        margin: 0 3% 20px;
+    }
+    #footer .recent-tweets{
+        width: 54%;
+        padding: 0;
+        margin: 0 3% 20px;
+    }
+    #footer .email-newsletter{
+        width: 38%;
+        margin: 0 3%;
+    }
+    #footer .email-newsletter .inner {
+        padding: 0;
+    }
+    #footer .foot-menu{
+        width: 40%;
+    }
+    #footer .lst-btn-social .grid_4{
+        width: 29.33333333333333%;
+        margin: 0 2%;
+    }
+    #footer .lst-btn-social a{
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-device-width:  480px), screen and (max-width:  480px) {
+    /*#header .top-line{background: green}*/
+    /*body{background: green}*/
+    .head-about-us .common-title{
+        padding: 45px 0 20px;
+    }
+    .client-we-work .lst-logo-client{
+        text-align: center;
+    }
+    .lst-all-service .clear{
+        display: none;
+    }
+    .lst-all-service .clear-2col{
+        display: block;
+    }
+    .lst-all-service .service-item,
+    .lst-all-project .project-item{
+        width: 48%;
+    }
+    .wrap-media-item .media > .thumb-left.normal-w{
+        float: none;
+        display: block;
+        text-align: center;
+        width: auto;
+        margin: 0 3% 10px;
+    }
+    .article-2col .grid_4,
+    .article-2col .grid_5{
+        width: 94%;
+    }
+    .service .service-item{
+        display: block;float: none;width: auto;
+        margin-bottom: 40px;
+    }
+
+    .lst-all-project .clear{
+        display: none;
+    }
+    .lst-all-project .clear-2col{
+        display: block;
+    }
+    .project-top-thumb .project-title{
+        padding: 17px 0;
+        margin: 0 0 16px 0;
+    }
+    .lst-logo-client a{
+        float: none;
+        display: block;
+        width: auto;
+        margin: 0 auto 20px;
+    }
+    .top-filter-item .lbl{
+        display: none;
+    }
+    .compose-comment .form-send-cm .grid_3{
+        width: 100%;
+        margin: 0;
+    }
+    .lst-lastest-work .project-lastest,
+    .lst-lastest-work .project-media,
+    .our-info .about-item,
+    .our-info .about-service,
+    .our-info .about-testimonial,
+    #footer .contact-info,
+    #footer .recent-tweets,
+    #footer .email-newsletter,
+    #footer .foot-menu,
+    #footer .info-line .grid_3,
+    #footer .info-line .grid_9{
+        width: auto;
+        float: none;
+        display: block;
+    }
+    .recent-posts{padding-bottom: 15px}
+    .lst-lastest-work .project-lastest,
+    .lst-lastest-work .project-media,
+    .lst-recent-posts .article-lastest,
+    .lst-recent-posts .article-item{
+        float: left;
+        width: 48%;
+        margin: 0 1% 20px;
+    }
+    .article-short .description,
+    .article-short .thumb-img,
+    .article-short.sml-thumb {
+        width: 98%;
+    }
+
+    .article-short .thumb-img{
+        margin-bottom: 10px;
+    }
+    .article-short .thumb-img img{
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+    }
+    #footer .inner {
+        padding: 0;
+    }
+    .our-info .about-service,
+    #footer .email-newsletter{
+        margin-bottom: 20px;
+    }
+    #footer .info-line .grid_3{
+        text-align: left;
+    }
+    .foot-menu {
+        margin: 0 3%;
+    }
+}
+
+@media screen and (max-device-width:  320px), screen and (max-width:  320px) {
+    /*body{background: #ffff00}*/
+    .lst-all-service .clear-2col,
+    .lst-all-project .clear-2col{
+        display: none;
+    }
+    .lst-all-service .service-item,
+    .lst-all-project .project-item,
+    .contact-form .grid_4{
+        width: 94%;
+    }
+    .project-top-thumb .thumb{
+        height: 190px;
+    }
+}
+
